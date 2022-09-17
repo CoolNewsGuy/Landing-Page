@@ -11,13 +11,19 @@ body {
   font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
-.header ul a {
+.header ul a,
+.sign-up .text p {
   font-size: 18px;
+  color: #c8c8c8;
+}
+
+.header,
+.sign-up {
+  background: #1f2937;
 }
 
 .header {
-  background: #1f2937;
-  min-height: 6%;
+  min-height: 9%;
   display: flex;
 }
 
@@ -32,7 +38,6 @@ body {
 }
 
 .header ul a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -47,4 +52,47 @@ body {
   gap: 22px;
 }
 
+.sign-up {
+  min-height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
 
+.sign-up .text {
+  flex-basis: 450px;
+}
+
+.sign-up .text h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.sign-up .text p {
+  font-weight: 100;
+  margin: 0
+}
+
+.sign-up .text button {
+  background: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 30px;
+  margin-top: 10px;
+}
+
+.sign-up .img {
+  background: #6D747D;
+  color: rgb(229, 229, 229);
+  height: 250px;
+  width: 500px;
+  display: grid;
+  place-content: center;
+}
