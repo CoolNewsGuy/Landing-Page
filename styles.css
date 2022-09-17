@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 300vh;
   font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  min-height: 9%;
+  min-height: 71.5px;
   display: flex;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .sign-up {
-  min-height: 50%;
+  min-height: 397.2px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
