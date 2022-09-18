@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,16 +11,20 @@ body {
   font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
+/* + multiple elements selection */
+
 .header ul a,
 .sign-up .text p {
-  font-size: 18px;
-  color: #c8c8c8;
+  font-size: 19px;
+  color: #e5e7eb;
 }
 
 .header,
 .sign-up {
   background: #1f2937;
 }
+
+/* * hero section */
 
 .header {
   min-height: 71.5px;
@@ -39,6 +43,7 @@ body {
 
 .header ul a {
   text-decoration: none;
+  font-weight: 500;
 }
 
 .header .logo {
@@ -51,6 +56,8 @@ body {
   display: flex;
   gap: 22px;
 }
+
+/* ? Sign-up */
 
 .sign-up {
   min-height: 397.2px;
@@ -73,8 +80,8 @@ body {
 }
 
 .sign-up .text p {
-  font-weight: 100;
-  margin: 0
+  font-weight: 300;
+  margin: 0;
 }
 
 .sign-up .text button {
@@ -89,10 +96,54 @@ body {
 }
 
 .sign-up .img {
-  background: #6D747D;
-  color: rgb(229, 229, 229);
+  background: #6d747d;
+  /* color: rgb(229, 229, 229); */
   height: 250px;
   width: 500px;
   display: grid;
   place-content: center;
+}
+
+/* !information */
+
+.information {
+  border: 1px solid red;
+  min-height: 550px;
+}
+
+.information h2 {
+  text-align: center;
+  margin-bottom: 55px;
+  font-size: 36px;
+  font-weight: 1000;
+}
+
+.information .pieces-of-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.information .illustrations {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+  gap: 15px;
+}
+
+.information .illust {
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+.information .sub-text {
+  text-align: center;
+  width: 85%;
+  scale: 1.2;
+  color: #767879;
 }
