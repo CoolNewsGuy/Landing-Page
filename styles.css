@@ -24,6 +24,11 @@ body {
   background: #1f2937;
 }
 
+.information h2,
+.quote q {
+  color: #1f2973;
+}
+
 /* * hero section */
 
 .header {
@@ -97,7 +102,7 @@ body {
 
 .sign-up .img {
   background: #6d747d;
-  /* color: rgb(229, 229, 229); */
+  color: #fff;
   height: 250px;
   width: 500px;
   display: grid;
@@ -107,7 +112,6 @@ body {
 /* !information */
 
 .information {
-  border: 1px solid red;
   min-height: 550px;
 }
 
@@ -146,4 +150,31 @@ body {
   width: 85%;
   scale: 1.2;
   color: #767879;
+}
+
+/* + quote */
+
+.quote {
+  background-color: #e5e7eb;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.quote q {
+  font-size: 50px;
+  font-weight: 300;
+  font-style: italic;
+  display: block;
+  width: 70%;
+}
+
+.quote .quote-owner {
+  font-weight: 1000;
+  margin-left: 20em;
+  font-size: 32px;
 }
