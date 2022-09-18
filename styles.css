@@ -24,9 +24,17 @@ body {
   background: #1f2937;
 }
 
+.sign-up button,
+.action button {
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
 .information h2,
 .quote q {
-  color: #1f2973;
+  color: #1f2937;
 }
 
 /* * hero section */
@@ -59,7 +67,7 @@ body {
 
 .header .right-elements {
   display: flex;
-  gap: 22px;
+  gap: 50px;
 }
 
 /* ? Sign-up */
@@ -93,10 +101,6 @@ body {
   background: #3882f6;
   color: white;
   border: none;
-  border-radius: 7px;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 10px 30px;
   margin-top: 10px;
 }
 
@@ -178,3 +182,36 @@ body {
   margin-left: 20em;
   font-size: 32px;
 }
+
+/* * action */
+
+.action {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.action .container {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 60px 0;
+}
+
+.action .container .text h2 {
+  margin: 0;
+}
+
+.action .container button {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+}
+
